@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Sana Clinic</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+
+<body id="body" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    
+    <!-- Navbar section --> 
+    <header class="header_wrapper">
+      <div class="logo-head">
+        <img src="./images/sllogo.png" alt="logo" style="height: 250px; width: 250px; margin-left:150px; margin-top:0px;">
+      </div>
+        <nav class="navbar navbar-expand-lg">
+          
+            <div class="container">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="animation start-home"> </div>
+                <ul class="navbar-nav  menu-navbar-nav" >
+          
+                    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bloodtest">BloodTest</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#mastercheckup">MasterCheckup</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#ecg">ECG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                 
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Navbar section exit -->
+
+    <!-- Banner section --> 
+    <div id="body2">
+    <section id="home" class="home">
+        <div class="banner_wrapper wrapper d-flex">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-1 order-2" data-aos="fade-left" data-aos-duration="1000">
+                        
+                        <h2>WELCOME TO SANA LAB</h2>
+                        <p>Your trusted source for blood testing and ECG services.
+                          We offer a wide range of tests to help you and your doctor monitor your health and diagnose 
+                          and treat any medical conditions you may have.</p>
+                        <a href="#" class="main-btn mt-4 fill-btn">Appointment</a>
+                        <a href="#" class="main-btn mt-4 ms-3">Learn More</a>
+                    </div>
+                    
+                </div>
+                <div class="first-img" data-aos="fade-right" data-aos-duration="5000">
+                <img src="./images/firstimg.jpg" alt=" firstimg" style=" height: 400px;
+                width: 450px; margin-right: 100px;">
+              </div>
+            </div>
+        </div>
+        <div class="wrappers pb-0 d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card text-center">
+                            <img class="banimg" src="./images/appointment.jpg" alt="">
+                            <div class="icon-box">
+             
+                            </div>
+                            <div>
+                                <h4>Easy Appointment</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card text-center">
+                            <div class="icon-box">
+                                <img class="banimg" decoding="async" src="./images/workingHours.jpg" alt="working">
+                            </div>
+                            <div>
+                                <h4>
+                                  7.00 am TO 9.00 pm
+                                </h4>
+                                   <p><strong></strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card text-center">
+                            <div class="icon-box">
+                                <img class="banimg" decoding="async" src="./images/homeservice.webp" alt="deilvery">
+                            </div>
+                            <div>
+                                <h4>Home Service</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Banner section exit -->
+
+    <!-- About section --> 
+    <section id="about" class="about_wrapper wrapper d-flex">
+        <div class="container">
+          
+               
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="choose" data-aos="fade-right" data-aos-duration="1000">
+                    <h2>Why Choose us?</h2>
+                    <ul>
+                      <li>We offer a wide range of blood tests and ECG services to meet your needs</li>
+                      <li>We are staffed by experienced and certified professionals.</li>
+                      <li>We use state-of-the-art equipment and technology.</li>
+                      <li>We offer same-day appointments and results for many of our tests.</li>
+                      <li>We accept a variety of insurance plan</li>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- About section exit -->
+
+    <!-- Test section --> 
+    <div>
+        <h2 class="test-title" id="bloodtest">Blood Test</h2>
+    </div>
+    <div class="card-container wrapper d-flex" data-aos="fade-in" data-aos-duration="20000" >
+        <div class="card">
+            
+            <div class="card-front">
+                <div class="icon-box">
+                    <img decoding="async"  src="./images/hematology.jpg" alt="hematology" style="height: 300px; width:300px; padding-top:0px;"> 
+                </div >
+            </div>
+            <div class="card-back">
+            <img src="./images/1hematology.png" alt=""  style="height: 300px; width:300px; padding-top:0px;">
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-front">
+                <div class="icon-box">
+                    <img decoding="async"  src="./images/bioChemistry.jpg" alt="biochemistry" style="height: 300px; width:300px; padding-top:0px;">
+                </div >
+            </div>
+            <div class="card-back">
+          <img src="./images/biochemistrynew.png" alt =" bio chemistry" style="height: 300px; width:300px; padding-top:0px;">
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-front">
+                <div class="icon-box">
+                    <img decoding="async"  src="./images/lipidProfile.jpg" alt="lipidprofile" style="height: 300px; width:300px; padding-top:0px;">
+                </div >
+            </div>
+            <div class="card-back">
+            <img src="./images/3LIPID.png" alt="" style="height: 300px; width:300px; padding-top:0px;">
+            </div>
+          </div>
+        </div> 
+    </body>
+    </html>
+    
+    
+
+    <!-- Test section Exit -->
+<div id="mastercheckup">
+    <h2 style="color: black; display:flex; justify-content: center; margin-top: 30px;">MASTER CHECKUP</h2>
+    <div class="main-carousel">
+    
+        <div class="card">
+          <div class="cell"> <h4 class="a">RFT</h4>
+ 
+          <ol class="list">
+            <li>Urea,Ceratine</li>
+            <li>uric Acid</li>
+            <li>calcium</li>
+            <li>phosporous</li>
+            <li>Magnesim</li>
+          </ol>
+        </div>
+        </div>
+        
+        <div class="card">
+        <div class="cell"> <h4 class="a">LFT</h4>
+            
+          <ol class="list">
+            <li>SGOT</li>
+            <li>SGPT</li>
+            <li>Protien</li>
+            <li>Albumin</li>
+            <li>A/G ratio</li>
+          </ol>
+        </div>
+        </div>
+        
+        <div class="card">
+        <div class="cell"><h4 class="a">ELECTROLYTES</h4>
+            
+          <ol class="list">
+            <li>Sodium</li>
+            <li>Potasium</li>
+            <li>Chloride</li>
+            <li>Bicarbonate</li>
+            <li>Bilirubin</li>
+          </ol>
+          
+        </div>
+        </div>
+        
+        <div class="card">
+        <div class="cell"><h4 class="a">SEROLOGY</h4>
+            
+          <ol class="list">
+            <li>WIDAL</li>
+            <li>VDRL</li>
+            <li>CRP</li>
+            <li>R.A FACTOR</li>
+            <li>TPHA</li>
+           </ol>
+        </div>
+        </div>
+        
+        <div class="card">
+        <div class="cell"><h4 class="a">CARDIAC PROFILE</h4>
+          
+          <ol class="list">
+            <li>S.G.O.T</li>
+            <li>CPK TOTAL</li>
+            <li>CPK-MB</li>
+            <li>LDH</li>
+            <li>TROPONIN T</li>
+          </ol>
+          
+        </div>
+        </div>
+        
+       
+        
+        <div class="card">
+          <div class="cell"><h4 class="a">ENDOCRINOLOGY</h4>
+           
+            <ol class="list">
+              <li>T3,T4,TSH</li>
+              <li>FT3,FT4,TSH</li>
+              <li>VITAMIN-D</li>
+              <li>BETA HCG</li>
+              <li>PSA TOTAL</li>
+            </ol>
+          </div>
+        </div>
+        
+    
+        <div class="card">
+          <div class="cell"><h4 class="a">URINE</h4>
+           
+            <ol class="list">
+              <li>ALBUM</li>
+              <li>SUGAR</li>
+              <li>COMPLETE</li>
+              <li>ROUTINE</li>
+              <li>BS/BP</li>
+            </ol>
+            
+          </div>
+        </div>
+        
+    
+        <div class="card">
+          <div class="cell"><h4 class="a">MOTION</h4>
+            
+            <ol class="list">
+              <li>ROUTINE</li>
+              <li>COMPLETE</li>
+              <li>OCCULT BLOOD</li>
+              <li>REDUCING SUBSTANCE</li>
+              
+            </ol>
+          </div>
+        </div>
+        
+    
+        <div class="card">
+          <div class="cell"><h4 class="a">CULTURE</h4>
+            
+            <ol class="list">
+              <li>BLOOD</li>
+              <li>URINE</li>
+              <li>SPTUM</li>
+             </ol>
+              
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    
+    <!-- Master checkup Section Exit  -->
+
+  
+
+    <!-- ECG section --> 
+    <section id="ecg" class="testimonial_wrapper wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <h3 class="text-black">ECG</h3>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="cards text-center" data-aos="fade-in" data-aos-duration="5000">
+                        <img decoding="async" src="./images/Ecg.jpg" class="img-fluid" alt="ecg">
+                        <h4 class="pt-4 mb-0"></h4>
+                        <p></p> 
+                    </div>
+                </div>
+                <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+                    <div class="ecgpara flex " data-aos="fade-left" data-aos-duration="3000">
+                    <p style="color: #023047;">"Our ECG lab features state-of-the-art machines with high-resolution monitoring capabilities. These user-friendly devices offer multiple lead options for versatile diagnostic needs, including stress tests, ensuring accurate cardiac assessments. Our lab provides 24/7 monitoring services using portable devices, enabling continuous heart monitoring in various clinical settings. With experienced technicians and cardiologists, we guarantee accurate data interpretation and timely reporting, ensuring efficient and reliable cardiac diagnostics."</p>
+                  </div>
+                  </div>
+            </div>
+        </div>
+    </section> 
+    <!-- ECG Section Exit -->
+      <!-- Gallery section --> 
+      <section id="gallery" class="gallery_wrapper wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="5000">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h3>Our Gallery</h3>
+                    <p style="font-size: 50px; color:aliceblue;">Happy Customers</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <img decoding="async" src="./images/sri-divya.jpg" class="w-100 h-100" alt="sridiviya" >
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <img decoding="async" src="./images/priyanamohan.jpg" class="w-100 h-100" alt="priyanka">
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <img decoding="async" src="./images/sai-pallavi.jpg" class="w-100 h-100" alt="saipallavi">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section Exit -->
+
+    <!--Appointment section --> 
+    <section class="appointment_wrapper wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-8 col-10">
+                    <h3>Request your appointment and make Tests</h3>
+                    <a href="#" class="mt-5 main-btn fill-btn">Request Appointment</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <!-- Appointment section Exit -->
+
+   
+
+    <!-- Footer section --> 
+    <section id="contact" class="footer_wrapper wrapper" >
+        <div class="container pb-3">
+            
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Lab  Location</h5>
+                    <p class="ps-0">
+                        </p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled p-0">
+                            <li><a href="#"><i class="fa fa-home me-3"></i> No.5, Ramasamy Kovil south street,Kumbakonam</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>8110821323</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>sanalab200518@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-connection">
+                <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0 ">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                </div>
+
+                
+                
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+                        <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</button>
+                    </div>
+                    
+                
+
+
+
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p class="p-0">Copyright <a href="#">© BlueWolfNetworks.</a> All Rights Reserved</p>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+
+
+    <script src="./js/jquery.3.7.1.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000
+      });
+    </script>
+    <script 
+ 
+    
+    
+    
+     src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+     <script type="text/javascript">
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'center',
+      wraparound: true,
+      freescroll: true,
+      pageDots: true,
+      loop: true,
+      autoPlay: true,
+    
+    });
+
+  </script>
+  
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
